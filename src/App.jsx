@@ -14,7 +14,7 @@ import NotFound from "./Components/NotFound";
 function App() {
   return (
     <div className='App'>
-      <BrowserRouter basename="/dogs">
+      <BrowserRouter>
         <UserStorage>
           <Header />
           <main className='AppBody'>
